@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img">
+  <title>ILOIANTS Family Construction Logo</title>
+  <desc>ILOIANTS wordmark in gold on dark background with decorative corner elements and tagline</desc>
+
+  <!-- Background -->
+  <rect width="800" height="240" fill="#111111"/>
+
+  <!-- Subtle diagonal grid texture -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="20" stroke="rgba(201,169,110,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="240" fill="url(#grid)"/>
+
+  <!-- Corner brackets TL -->
+  <line x1="30" y1="30" x2="70" y2="30" stroke="#C9A96E" stroke-width="1.5"/>
+  <line x1="30" y1="30" x2="30" y2="70" stroke="#C9A96E" stroke-width="1.5"/>
+
+  <!-- Corner brackets TR -->
+  <line x1="770" y1="30" x2="730" y2="30" stroke="#C9A96E" stroke-width="1.5"/>
+  <line x1="770" y1="30" x2="770" y2="70" stroke="#C9A96E" stroke-width="1.5"/>
+
+  <!-- Corner brackets BL -->
+  <line x1="30" y1="210" x2="70" y2="210" stroke="#C9A96E" stroke-width="1.5"/>
+  <line x1="30" y1="210" x2="30" y2="170" stroke="#C9A96E" stroke-width="1.5"/>
+
+  <!-- Corner brackets BR -->
+  <line x1="770" y1="210" x2="730" y2="210" stroke="#C9A96E" stroke-width="1.5"/>
+  <line x1="770" y1="210" x2="770" y2="170" stroke="#C9A96E" stroke-width="1.5"/>
+
+  <!-- Top eyebrow label -->
+  <text x="400" y="56" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" letter-spacing="8" fill="#C9A96E" opacity="0.7" text-transform="uppercase">GLENDALE, CALIFORNIA  ·  EST. FAMILY TRADITION</text>
+
+  <!-- Thin top divider line with diamond -->
+  <line x1="120" y1="68" x2="370" y2="68" stroke="rgba(201,169,110,0.25)" stroke-width="0.75"/>
+  <rect x="396" y="64" width="8" height="8" fill="#C9A96E" transform="rotate(45 400 68)"/>
+  <line x1="430" y1="68" x2="680" y2="68" stroke="rgba(201,169,110,0.25)" stroke-width="0.75"/>
+
+  <!-- Main wordmark: ILOIANTS -->
+  <text x="400" y="158" text-anchor="middle"
+    font-family="'Playfair Display', Georgia, serif"
+    font-size="88"
+    font-weight="900"
+    letter-spacing="18"
+    fill="#C9A96E">ILOIANTS</text>
+
+  <!-- Bottom divider -->
+  <line x1="120" y1="172" x2="370" y2="172" stroke="rgba(201,169,110,0.25)" stroke-width="0.75"/>
+  <rect x="396" y="168" width="8" height="8" fill="rgba(201,169,110,0.5)" transform="rotate(45 400 172)"/>
+  <line x1="430" y1="172" x2="680" y2="172" stroke="rgba(201,169,110,0.25)" stroke-width="0.75"/>
+
+  <!-- Tagline -->
+  <text x="400" y="200" text-anchor="middle"
+    font-family="'Montserrat', sans-serif"
+    font-size="11"
+    font-weight="300"
+    letter-spacing="10"
+    fill="#E8D5B0"
+    opacity="0.85">FAMILY  CONSTRUCTION</text>
+
+  <!-- Bottom micro text -->
+  <text x="400" y="220" text-anchor="middle"
+    font-family="'Montserrat', sans-serif"
+    font-size="8"
+    font-weight="400"
+    letter-spacing="4"
+    fill="rgba(201,169,110,0.4)">STONE · KITCHEN · FULL HOME CONSTRUCTION</text>
+</svg>
